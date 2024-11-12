@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "9f7925f73edc19cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "15f321eeb428a0af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98b3f51cbe366302",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "design/base loupes.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "base loupes"
+            }
+          },
+          {
+            "id": "d2822dd8a7a37a07",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "design/base loupes.canvas",
+                "viewState": {
+                  "x": -163.70409788708108,
+                  "y": 97.57108122947722,
+                  "zoom": 0.4
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "base loupes"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a992210b7e4f5550",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed3543f76bd3196d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "896e4610251fdd05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2dfa406cd7ae905a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7fa4d34cc9719be3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "62ba8b6a589dcc0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bb68d75cdcd0732",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5eb15dd546fb717",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "design/base loupes.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for base loupes"
+            }
+          },
+          {
+            "id": "4afad9ba9c65d92a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "design/base loupes.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from base loupes"
+            }
+          },
+          {
+            "id": "50e65c69d7a3ada0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4a74cd37ac7484f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "design/base loupes.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of base loupes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d2822dd8a7a37a07",
+  "lastOpenFiles": [
+    "dev/Notes Unity.md",
+    "design/base loupes.canvas",
+    "lore?",
+    "design",
+    "dev",
+    "Welcome.md"
+  ]
+}

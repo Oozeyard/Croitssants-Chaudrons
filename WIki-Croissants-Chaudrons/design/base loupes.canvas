@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"bde1f6f3b86de8e2","type":"text","text":"Retry","x":-240,"y":-60,"width":120,"height":50},
+		{"id":"d60d0526b0b7e4ac","type":"text","text":"Die","x":-240,"y":40,"width":120,"height":50}
+	],
+	"edges":[
+		{"id":"ebfd4d5e254e4e5a","fromNode":"bde1f6f3b86de8e2","fromSide":"right","toNode":"d60d0526b0b7e4ac","toSide":"right"},
+		{"id":"ebe6fa407cf2e7f1","fromNode":"d60d0526b0b7e4ac","fromSide":"left","toNode":"bde1f6f3b86de8e2","toSide":"left"}
+	]
+}
