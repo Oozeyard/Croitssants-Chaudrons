@@ -1,10 +1,38 @@
 {
 	"nodes":[
-		{"id":"bde1f6f3b86de8e2","type":"text","text":"Retry","x":-240,"y":-60,"width":120,"height":50},
-		{"id":"d60d0526b0b7e4ac","type":"text","text":"Die","x":-240,"y":40,"width":120,"height":50}
+		{"id":"9bd858def67f03a8","type":"text","text":"Player in sight ? ","x":205,"y":140,"width":270,"height":50},
+		{"id":"bde1f6f3b86de8e2","type":"text","text":"Retry","x":-400,"y":-300,"width":120,"height":50},
+		{"id":"d60d0526b0b7e4ac","type":"text","text":"Die","x":-400,"y":-200,"width":120,"height":50},
+		{"id":"4a02648fd05e9384","type":"text","text":"For more than X seconds ?","x":-120,"y":140,"width":270,"height":50},
+		{"id":"6d76e794da0391c9","type":"text","text":"WANDERING","x":205,"y":-60,"width":270,"height":50,"color":"6"},
+		{"id":"c55c01cdfe9e6291","type":"text","text":"Grounded ?","x":205,"y":40,"width":270,"height":50},
+		{"id":"f98a3ec32b91e096","type":"text","text":"APPROACH PLAYER","x":205,"y":240,"width":270,"height":50,"color":"6"},
+		{"id":"776d34ea8a632001","type":"text","text":"Last attack was Xs ago ?","x":205,"y":540,"width":270,"height":50},
+		{"id":"3c1ddaaa08deb98c","type":"text","text":"ATTACK PLAYER","x":205,"y":640,"width":270,"height":50,"color":"6"},
+		{"id":"de1485aa917d5c7e","type":"text","text":"Grounded ?","x":560,"y":640,"width":270,"height":50},
+		{"id":"029acf6be8e5df8c","type":"text","text":"RAGDOLL","x":960,"y":640,"width":270,"height":50,"color":"6"},
+		{"id":"1c947cc1358c1034","type":"text","text":"Player in range of attack ?","x":205,"y":440,"width":270,"height":50},
+		{"id":"beb03fbbfb0ed8e9","type":"text","text":"Grounded ?","x":205,"y":340,"width":270,"height":50}
 	],
 	"edges":[
 		{"id":"ebfd4d5e254e4e5a","fromNode":"bde1f6f3b86de8e2","fromSide":"right","toNode":"d60d0526b0b7e4ac","toSide":"right"},
-		{"id":"ebe6fa407cf2e7f1","fromNode":"d60d0526b0b7e4ac","fromSide":"left","toNode":"bde1f6f3b86de8e2","toSide":"left"}
+		{"id":"ebe6fa407cf2e7f1","fromNode":"d60d0526b0b7e4ac","fromSide":"left","toNode":"bde1f6f3b86de8e2","toSide":"left"},
+		{"id":"df54e1d836ab7a8c","fromNode":"9bd858def67f03a8","fromSide":"bottom","toNode":"f98a3ec32b91e096","toSide":"top","color":"4"},
+		{"id":"f8f2b58e7f4bffe4","fromNode":"1c947cc1358c1034","fromSide":"left","toNode":"f98a3ec32b91e096","toSide":"left","color":"1"},
+		{"id":"6614e39bff2eb97a","fromNode":"4a02648fd05e9384","fromSide":"top","toNode":"6d76e794da0391c9","toSide":"left","color":"4"},
+		{"id":"9b55db02a17a0070","fromNode":"9bd858def67f03a8","fromSide":"left","toNode":"4a02648fd05e9384","toSide":"right","color":"1"},
+		{"id":"f1ea5d3a71fa236c","fromNode":"4a02648fd05e9384","fromSide":"bottom","toNode":"f98a3ec32b91e096","toSide":"left","color":"1"},
+		{"id":"1f4868afd953dd81","fromNode":"f98a3ec32b91e096","fromSide":"bottom","toNode":"beb03fbbfb0ed8e9","toSide":"top"},
+		{"id":"54db130fc53fc777","fromNode":"beb03fbbfb0ed8e9","fromSide":"bottom","toNode":"1c947cc1358c1034","toSide":"top","color":"4"},
+		{"id":"5d59decf7a4d9b5d","fromNode":"6d76e794da0391c9","fromSide":"bottom","toNode":"c55c01cdfe9e6291","toSide":"top"},
+		{"id":"7655271b60398be3","fromNode":"c55c01cdfe9e6291","fromSide":"bottom","toNode":"9bd858def67f03a8","toSide":"top","color":"4"},
+		{"id":"2905b95ec98763b1","fromNode":"de1485aa917d5c7e","fromSide":"right","toNode":"029acf6be8e5df8c","toSide":"left","color":"1"},
+		{"id":"f04e6e88a40b1c2c","fromNode":"776d34ea8a632001","fromSide":"left","toNode":"f98a3ec32b91e096","toSide":"left","color":"1"},
+		{"id":"1a8e71e87313c9c6","fromNode":"1c947cc1358c1034","fromSide":"bottom","toNode":"776d34ea8a632001","toSide":"top","color":"4"},
+		{"id":"178ecffd8ddf3934","fromNode":"776d34ea8a632001","fromSide":"bottom","toNode":"3c1ddaaa08deb98c","toSide":"top","color":"4"},
+		{"id":"208012eca6a3ee21","fromNode":"3c1ddaaa08deb98c","fromSide":"right","toNode":"de1485aa917d5c7e","toSide":"left"},
+		{"id":"b7b482771b7d4157","fromNode":"de1485aa917d5c7e","fromSide":"top","toNode":"f98a3ec32b91e096","toSide":"right","color":"4"},
+		{"id":"4a220bc7f04c540c","fromNode":"c55c01cdfe9e6291","fromSide":"right","toNode":"029acf6be8e5df8c","toSide":"left","color":"1"},
+		{"id":"24f8d761dbc846f0","fromNode":"beb03fbbfb0ed8e9","fromSide":"right","toNode":"029acf6be8e5df8c","toSide":"left","color":"1"}
 	]
 }
