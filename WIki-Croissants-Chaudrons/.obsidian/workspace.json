@@ -15,8 +15,8 @@
               "state": {
                 "file": "design/base loupes.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -180,
+                  "y": 15,
                   "zoom": 0
                 }
               },
@@ -32,17 +32,16 @@
               "state": {
                 "file": "design/base loupes.canvas",
                 "viewState": {
-                  "x": -98.01853385470054,
-                  "y": 36.0230603757383,
-                  "zoom": 0.8
+                  "x": -180,
+                  "y": 15,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "base loupes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +182,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2822dd8a7a37a07",
+  "active": "98b3f51cbe366302",
   "lastOpenFiles": [
     "dev/Notes Unity.md",
     "design/base loupes.canvas",
