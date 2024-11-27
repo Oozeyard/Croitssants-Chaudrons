@@ -91,7 +91,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7515204477830990001}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.09683487, y: 0.47501644, z: 0.052687068, w: 0.8730444}
+  m_LocalRotation: {x: -0.09683263, y: 0.47501263, z: 0.052685294, w: 0.87304676}
   m_LocalPosition: {x: 2.554, y: 5.795, z: 11.307}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
@@ -300,8 +300,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
-  m_SecondaryAttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 3369415905668522459}
+  m_SecondaryAttachTransform: {fileID: 8821456971252127823}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
