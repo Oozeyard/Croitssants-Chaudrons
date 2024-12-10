@@ -30,6 +30,8 @@ public class Enemy : MonoBehaviour
 
     public bool ragdoll = false;
 
+    public float health = 100;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -215,11 +217,27 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision!");
         if (collision.gameObject.CompareTag("Player") && !ragdoll)
         {
-            ragdoll = true;
-            ragdollTime = Time.time;
+            Debug.Log("Player hit me!");
+            health -= 10;
+            if (health <= 0)
+            {
+                ragdoll = true;
+                ragdollTime = Time.time;
+            }
+        }
+        else if (collision.gameObject.CompareTag("Weapon") && !ragdoll)
+        {
+            Debug.Log("Weapon hit me!");
+            float damage = collision.gameObject.GetComponent<Weapon>().baseDamage + collision.gameObject.GetComponent<Weapon>().GetVelocity().magnitude;
+            health -= damage;
+            Debug.Log("Damage: " + damage);
+            if (health <= 0)
+            {
+                ragdoll = true;
+                ragdollTime = Time.time;
+            }
         }
     }
 }
