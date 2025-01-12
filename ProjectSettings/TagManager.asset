@@ -6,21 +6,26 @@ TagManager:
   tags:
   - Right Hand
   - Left Hand
-  - Weapon
-  - Enemy
+  - SamplesInfoPanel
+  - Locomotion
+  - PassThrough
+  - PassThroughButton
+  - LocoButton
+  - LocoText
+  - Weapons
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HiddenMesh
   - Water
   - UI
   - Player
   - 
   - 
   - 
-  - 
-  - 
+  - Character
+  - MirroredCharacter
   - 
   - 
   - 
