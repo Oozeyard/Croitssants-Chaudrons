@@ -39521,7 +39521,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _renderers.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4187551272207235}
     - target: {fileID: 7780865689132456738, guid: 1d9de9ee96c2aac4ea3458b27855f24b,
         type: 3}
       propertyPath: _rigidbody
@@ -45459,6 +45459,12 @@ MeshFilter:
     type: 3}
   m_PrefabInstance: {fileID: 3514742612453567187}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &4187551272207235 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8466358704712145861, guid: 4bd2f5aaa204cf37e9427a6f6dce247a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3514742612453567187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4621127758207529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4474266664996786268, guid: 769daf95336b18bba825b9e6a9365d97,
@@ -45798,17 +45804,17 @@ PrefabInstance:
     - target: {fileID: 7321669220033923444, guid: 7fbece1da09cb410da4f3297e59a7ac5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.195
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7321669220033923444, guid: 7fbece1da09cb410da4f3297e59a7ac5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: -0.034
       objectReference: {fileID: 0}
     - target: {fileID: 7321669220033923444, guid: 7fbece1da09cb410da4f3297e59a7ac5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.097
+      value: -0.008
       objectReference: {fileID: 0}
     - target: {fileID: 7321669220033923444, guid: 7fbece1da09cb410da4f3297e59a7ac5,
         type: 3}
