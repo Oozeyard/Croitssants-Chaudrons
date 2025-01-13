@@ -2344,11 +2344,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 907195546098585058, guid: bf187b68367fbbc4680e2f3a3677e9a5,
-        type: 3}
-      propertyPath: _whenUnhover.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 907195546098585060, guid: bf187b68367fbbc4680e2f3a3677e9a5,
         type: 3}
       propertyPath: m_Enabled
