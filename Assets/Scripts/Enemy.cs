@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
+using static Skeleton;
+
 public class Enemy : MonoBehaviour
 {
     private NavMeshAgent navMeshAgent;
@@ -153,19 +155,22 @@ public class Enemy : MonoBehaviour
         {
             navMeshAgent.isStopped = true;
             navMeshAgent.enabled = false;
-            rb.constraints = RigidbodyConstraints.None;
-            rb.angularVelocity = Random.insideUnitSphere * 2.0f;
-            rb.velocity = Random.insideUnitSphere * 1.0f;
+            Skeleton skeleton = GetComponent<Skeleton>();
+            skeleton.EnableRagdoll();
+            // rb.constraints = RigidbodyConstraints.None;
+            // rb.angularVelocity = Random.insideUnitSphere * 2.0f;
+            // rb.velocity = Random.insideUnitSphere * 1.0f;
             Debug.Log("Ragdoll!");
         };
 
         ragdollState.Update = () =>
         {
-            if (Time.time - ragdollTime > ragdollDelay)
-            {
-                return 0;
-            }
+            // if (Time.time - ragdollTime > ragdollDelay)
+            // {
+            //     return 0;
+            // }
 
+            // return -1;
             return -1;
         };
 
@@ -227,7 +232,7 @@ public class Enemy : MonoBehaviour
                 ragdollTime = Time.time;
             }
         }
-        else if (collision.gameObject.CompareTag("Weapon") && !ragdoll)
+        else if (collision.gameObject.CompareTag("Weapons") && !ragdoll)
         {
             Debug.Log("Weapon hit me!");
             float damage = collision.gameObject.GetComponent<Weapon>().baseDamage + collision.gameObject.GetComponent<Weapon>().GetVelocity().magnitude;

@@ -38,13 +38,13 @@ public class Skeleton : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Weapons"))
-        {
-            EnableRagdoll();
-        }
+        // if (collision.gameObject.CompareTag("Weapons"))
+        // {
+        //     EnableRagdoll();
+        // }
     }
 
-    private void DisableRagdoll()
+    public void DisableRagdoll()
     {
         foreach (var rb in _radollRigidbodies)
         {
@@ -62,7 +62,7 @@ public class Skeleton : MonoBehaviour
 
     }
 
-    private void EnableRagdoll()
+    public void EnableRagdoll()
     {
         foreach (var rb in _radollRigidbodies)
         {
